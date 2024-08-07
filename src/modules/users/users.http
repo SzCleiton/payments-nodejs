@@ -1,0 +1,11 @@
+### register
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "fullName": "SzCleiton Code",
+    "cpfCnpj": "012.345.678-95",
+    "email": "creitin123@mailinator.com",
+    "password": "123123",
+    "type": "payee"
+}
